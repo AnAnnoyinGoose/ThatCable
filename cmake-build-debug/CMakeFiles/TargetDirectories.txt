@@ -1,0 +1,4 @@
+/home/aag/code/ThatCable/cmake-build-debug/CMakeFiles/ThatCableServer.dir
+/home/aag/code/ThatCable/cmake-build-debug/CMakeFiles/ThatCableClient.dir
+/home/aag/code/ThatCable/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aag/code/ThatCable/cmake-build-debug/CMakeFiles/rebuild_cache.dir

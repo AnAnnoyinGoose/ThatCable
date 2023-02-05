@@ -1,0 +1,14 @@
+# ninja log v5
+214	241	1675513930828906620	Test	7e14929407941642
+0	217	1675523514382432016	CMakeFiles/ThatCableClient.dir/Client/client.cpp.o	9ed3c45dab47029a
+0	244	1675548191590103981	CMakeFiles/ThatCableServer.dir/Server/server.cpp.o	63d94a425567b8ba
+0	214	1675513930802239326	CMakeFiles/Test.dir/Client/test.cpp.o	adcbb31e25a416ad
+0	203	1675523514369098395	CMakeFiles/ThatCableClient.dir/Client/main.cpp.o	777e087dd3f57e10
+0	206	1675523514372431800	CMakeFiles/ThatCableClient.dir/Client/GUI.cpp.o	4046803ade139bf3
+217	247	1675523514412432662	ThatCableClient	1f1664b22ed9aa7f
+244	275	1675548191620104556	ThatCableServer	7bd6f7ebcb544cd5
+0	12	1675598907515029059	build.ninja	f1726817ae675eff
+0	229	1675598907748367208	CMakeFiles/ThatCableClient.dir/Client/main.cpp.o	777e087dd3f57e10
+0	232	1675598907751700611	CMakeFiles/ThatCableClient.dir/Client/client.cpp.o	9ed3c45dab47029a
+0	240	1675598907758367416	CMakeFiles/ThatCableClient.dir/Client/GUI.cpp.o	4046803ade139bf3
+240	269	1675598907788368035	ThatCableClient	1f1664b22ed9aa7f
