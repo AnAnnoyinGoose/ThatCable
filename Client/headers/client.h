@@ -25,15 +25,15 @@ public:
 
     ~client();
 
-    void send(std::string &message) const;
+    int send(std::string &message) const;
 
-    std::string receive() const;
+    size_t receive() const;
 
     void closeClient() const;
 
-    __attribute__((unused)) void messageHandler() const;
+    void messageHandler() const;
 
-    __attribute__((unused)) void messageSender() const;
+    void messageSender() const;
 
     int getSocket() const;
 

@@ -3,6 +3,7 @@
 //
 
 #include <cstring>
+#include <csignal>
 #include "headers/GUI.h"
 #include "headers/client.h"
 #include "headers/main.h"
@@ -207,6 +208,7 @@ void GUI::InputMode() {
         }
         wrefresh(inputWindow);
     }
+    main::closeClient();
 }
 
 void GUI::FileAdderToggle() {

@@ -14,63 +14,30 @@
 
 class Server {
 private:
-    struct Client {
-        std::string name;
-        int SOCKET;
-        sockaddr_in ADDRESS;
-        std::string IP;
-        int PORT;
-    };
-    Client client[20];
     int SOCKET{};
     sockaddr_in ADDRESS{};
     int PORT{};
     std::string IP;
-
-    __attribute__((unused)) void
-    setClient(int clientSocket, sockaddr_in address, std::string &ip, int port, std::string name);
-
 public:
+    struct Client {
+        sockaddr_in ADDRESS{};
+        int SOCKET{};
+        std::string name;
+        char buffer[4096]{};
+    };
+    Client *clients{};
 
-    Server(int port, std::string &ip);
+    Server(int port, std::string &ip, int maxClients);
 
-    ~Server();
+    int clientHandler(Client &client) const;
 
-    [[noreturn]] void listen() const;
+    int messageHandler(Client &client) const;
 
-    static void send(int clientSocket, std::string &message);
-
-    static std::string receive(int clientSocket);
+    static int recieveFromClient(Client &client);
 
     void closeServer() const;
 
-    static void inboxUpdate(int clientSocket);
-
-
-// <editor-fold desc="TODO: Add these functions to the client class">
-    __attribute__((unused)) static void closeClient(int clientSocket);
-
-    void listClients();
-
-    void sendAll(std::string &message);
-
-    int getClientSocket(int clientSocket);
-
-    __attribute__((unused)) sockaddr_in getClientAddress(int clientSocket);
-
-    __attribute__((unused)) std::string getClientIP(int clientSocket);
-
-    __attribute__((unused)) int getClientPort(int clientSocket);
-
-    void commandHandler();
-
-    __attribute__((unused)) int acceptClient();
-
-    void sendSpecific(int clientSocket, std::string &message);
-    // </editor-fold>
-
-
-
+    [[noreturn]] void Listen() const;
 
 };
 

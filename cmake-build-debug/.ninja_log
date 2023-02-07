@@ -12,3 +12,11 @@
 0	232	1675598907751700611	CMakeFiles/ThatCableClient.dir/Client/client.cpp.o	9ed3c45dab47029a
 0	240	1675598907758367416	CMakeFiles/ThatCableClient.dir/Client/GUI.cpp.o	4046803ade139bf3
 240	269	1675598907788368035	ThatCableClient	1f1664b22ed9aa7f
+0	836	1675696842204654055	CMakeFiles/ThatCableServer.dir/Server/server.cpp.o	63d94a425567b8ba
+836	1117	1675696842484661435	ThatCableServer	7bd6f7ebcb544cd5
+0	297	1675699781170636677	CMakeFiles/ThatCableServer.dir/Server/server.cpp.o	63d94a425567b8ba
+297	326	1675699781200637366	ThatCableServer	7bd6f7ebcb544cd5
+0	269	1675700200126565113	CMakeFiles/ThatCableServer.dir/Server/server.cpp.o	63d94a425567b8ba
+269	298	1675700200156565757	ThatCableServer	7bd6f7ebcb544cd5
+0	256	1675700490392708573	CMakeFiles/ThatCableServer.dir/Server/server.cpp.o	63d94a425567b8ba
+256	285	1675700490422709201	ThatCableServer	7bd6f7ebcb544cd5
